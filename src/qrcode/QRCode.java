@@ -31,7 +31,7 @@ public class QRCode {
 
 	public static void main(String[] args) throws WriterException, IOException,
 			NotFoundException {
-		String qrCodeData = "n d singha";
+		String qrCodeData = "gourab";
 		String filePath = "QRCode.png";
 		String charset = "UTF-8"; // or "ISO-8859-1"
 		Map<EncodeHintType, ErrorCorrectionLevel> hintMap = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
